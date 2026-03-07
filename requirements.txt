@@ -1,0 +1,5 @@
+opencv-python==4.8.1.78
+numpy==1.24.3
+torch==2.1.0
+ultralytics==8.0.200
+huggingface-hub==0.19.4
