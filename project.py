@@ -11,7 +11,7 @@ import json
 # --- Setup ---
 
 # Download YOLOv8 face detection model
-model_path = hf_hub_download(repo_id="arnabdhar/YOLOv8-Face-Detection", filename="model.pt")
+model_path = r"\model.pt"
 face_detector = YOLO(model_path)
 
 # Safe zone fraction (center rectangle)
